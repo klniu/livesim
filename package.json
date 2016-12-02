@@ -1,0 +1,29 @@
+{
+  "name": "livesim",
+  "version": "0.0.1",
+  "description": "A system to simulate the lives.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klniu/livesim.git"
+  },
+  "author": "Hugh Gao",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/klniu/livesim/issues"
+  },
+  "homepage": "https://github.com/klniu/livesim#readme",
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2"
+  },
+  "dependencies": {
+    "@types/react": "^0.14.52",
+    "@types/react-dom": "^0.14.19",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
